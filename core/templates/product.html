@@ -1,0 +1,23 @@
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Product</title>
+        {% bootstrap_css %}
+    </head>
+    <body>
+        <div class="container">
+            <h1>Product</h1>
+            {% bootstrap_messages %}
+            <form action="{% url 'product' %}" method="post" class="form" autocomplete="off">
+                {% csrf_token %}
+                {% bootstrap_form form %}
+                {% buttons %}
+                    <button type="submit" class="btn btn-primary">Save</button>
+                {% endbuttons %}
+            </form>
+        </div>
+        {% bootstrap_javascript jquery='full' %}
+    </body>
+</html>

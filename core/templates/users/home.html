@@ -1,0 +1,13 @@
+{% extends 'users/base.html' %}
+{% block content %}
+<form action="{% url 'users_list' %}" method="post">
+	{% csrf_token %}
+	<div style="text-align: center;" class="container">
+		<h1>User registration</h1>
+		Username&nbsp;&nbsp;<input name="username" class="form-control-sm" type="text">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		Age&nbsp;&nbsp;<input name="age" class="form-control-sm" type="text">
+		<button name="send" class="form-control-sm">Send</button>
+	</div>
+</form>
+{% endblock %}
