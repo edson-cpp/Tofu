@@ -1,3 +1,0 @@
-Controle de horários e pagamentos
-Atendimento no balcão - controle de contas a receber
-Controle de custos
