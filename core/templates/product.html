@@ -10,7 +10,7 @@
         <div class="container">
             <h1>Product</h1>
             {% bootstrap_messages %}
-            <form action="{% url 'product' %}" method="post" class="form" autocomplete="off">
+            <form action="{% url 'product' %}" method="post" class="form" autocomplete="off" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% bootstrap_form form %}
                 {% buttons %}

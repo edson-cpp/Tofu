@@ -3,6 +3,7 @@ from django.shortcuts import get_object_or_404
 from .forms import ContactForm, ProductModelForm
 from django.contrib import messages
 from .models import Product
+from django.shortcuts import redirect
 
 def index(request):
     context = {
@@ -26,6 +27,8 @@ def contact(request):
     return render(request, 'contact.html', context)
 
 def product(request):
+    if str(request.user) == 'AnonymousUser':
+        return redirect('index')
     if str(request.method) == 'POST':
         form = ProductModelForm(request.POST, request.FILES)
         if form.is_valid():
