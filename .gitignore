@@ -26,3 +26,4 @@
 /tofu/__pycache__
 /tofu/*.*~
 /tofu/*.pyc
+/tofu/.idea
