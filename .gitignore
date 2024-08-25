@@ -23,7 +23,8 @@
 /docs/Planilhas Edgar - cancha/teste.xlsx
 /docs/prioridades.txt
 /.gitignore
-/tofu/__pycache__
-/tofu/*.*~
-/tofu/*.pyc
-/tofu/.idea
+__pycache__
+*.*~
+*.pyc
+.idea
+/.venv

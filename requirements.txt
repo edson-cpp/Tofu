@@ -1,9 +1,12 @@
+asgiref==3.8.1
 beautifulsoup4==4.12.3
+dj-database-url==2.2.0
 dj-static==0.0.6
 Django==5.0.7
 django-bootstrap4==24.3
 django-stdimage==6.0.2
 gunicorn==22.0.0
+mysqlclient==2.2.4
 packaging==24.1
 pillow==10.4.0
 PyMySQL==1.1.1

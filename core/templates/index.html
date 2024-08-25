@@ -1,52 +1,40 @@
-{% load bootstrap4 %}
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Index</title>
-        {% bootstrap_css %}
-        <link href="{% static 'css/styles.css' %}" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Product</h1>
-            {% bootstrap_messages %}
-            <table class="table table-dark table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Image</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for product in products %}
-                        <tr>
-                            <td scope="rol">{{ product.id }}</td>
-                            <td scope="rol"><a href="#modal{{product.id}}" data-toggle="modal">{{ product.name }}</a></td>
-                            <td scope="rol">{{ product.price }}</td>
-                            <td scope="rol">{{ product.image }}</td>
-                        </tr>
-                        <div class="modal fade bd-exemple-modal-lg show" id="modal{{product.id}}" role="dialog">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body" id="dynamic-content">
-                                        <img src="{{product.image.url}}" class="img-fluid" alt="{{product.name}}"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-        {% bootstrap_javascript jquery='full' %}
-    </body>
-</html>
+{% block content %}
+
+<!-- Services Section Start -->
+  {% include 'services.html' %}
+<!-- Services Section End -->
+
+<!-- About Section start -->
+  {% include 'about.html' %}
+<!-- About Section End -->
+
+<!-- Features Section Start -->
+  {% include 'features.html' %}
+<!-- Features Section End -->
+
+<!-- Team Section Start -->
+  {% include 'team.html' %}
+<!-- Team Section End -->
+
+<!-- Pricing section Start -->
+  {% include 'pricing.html' %}
+<!-- Pricing Table Section End -->
+
+<!-- Testimonial Section Start -->
+  {% include 'testimonial.html' %}
+<!-- Testimonial Section End -->
+
+<!-- Call To Action Section Start -->
+  {% include 'calltoaction.html' %}
+<!-- Call To Action Section Start -->
+
+<!-- Contact Section Start -->
+  {% include 'contact.html' %}
+<!-- Contact Section End -->
+
+<!-- Footer Section Start -->
+  {% include 'footer.html' %}
+<!-- Footer Section End -->
+{% endblock %}
