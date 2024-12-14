@@ -1,30 +1,31 @@
-/docs/Planilhas Edgar - cancha/Agosto2013.xlsx
-/docs/Planilhas Edgar - cancha/Aluguel de Material.docx
-/docs/Planilhas Edgar - cancha/CachoeiraXLitraço.xls
-/docs/Planilhas Edgar - cancha/Contrato de Locação de espaço publicitário.docx
-/docs/Planilhas Edgar - cancha/Controle1.xlsx
-/docs/Planilhas Edgar - cancha/Controle2014.xlsx
-/docs/Planilhas Edgar - cancha/Dezembro2013.xlsx
-/docs/Planilhas Edgar - cancha/Fevereiro-2014.xls
-/docs/Planilhas Edgar - cancha/Janeiro-2014.xls
-/docs/Planilhas Edgar - cancha/Janeiro2013.xlsx
-/docs/Planilhas Edgar - cancha/Julho2013.xlsx
-/docs/Planilhas Edgar - cancha/Novembro2013.xlsx
-/docs/Planilhas Edgar - cancha/OsincriveisXSoelite.xls
-/docs/Planilhas Edgar - cancha/Outubro2013.xlsx
-/docs/Planilhas Edgar - cancha/Perfuração Métodos.docx
-/docs/Planilhas Edgar - cancha/Planilha de Custo.xls
-/docs/Planilhas Edgar - cancha/Poços de Petróleo.docx
-/docs/Planilhas Edgar - cancha/Preços.xlsx
-/docs/Planilhas Edgar - cancha/Setembro2013.xlsx
-/docs/Planilhas Edgar - cancha/Tabela de Preços 2005.doc
-/docs/Planilhas Edgar - cancha/Tabela de preços final.xls
-/docs/Planilhas Edgar - cancha/Tabela de preços.xls
-/docs/Planilhas Edgar - cancha/teste.xlsx
-/docs/prioridades.txt
-/.gitignore
+Agosto2013.xlsx
+Aluguel de Material.docx
+CachoeiraXLitraço.xls
+Contrato de Locação de espaço publicitário.docx
+Controle1.xlsx
+Controle2014.xlsx
+Dezembro2013.xlsx
+Fevereiro-2014.xls
+Janeiro-2014.xls
+Janeiro2013.xlsx
+Julho2013.xlsx
+Novembro2013.xlsx
+OsincriveisXSoelite.xls
+Outubro2013.xlsx
+Perfuração Métodos.docx
+Planilha de Custo.xls
+Poços de Petróleo.docx
+Preços.xlsx
+Setembro2013.xlsx
+Tabela de Preços 2005.doc
+Tabela de preços final.xls
+Tabela de preços.xls
+teste.xlsx
+prioridades.txt
+02-fusion-opl.zip
+.gitignore
 __pycache__
 *.*~
 *.pyc
 .idea
-/.venv
+.venv

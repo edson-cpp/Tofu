@@ -1,4 +1,4 @@
-# Tofu
+# Workshop
 An automation system for restaurants, bars and soccer fields.
 
 ## Requirements
