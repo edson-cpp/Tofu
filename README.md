@@ -1,5 +1,5 @@
 # Workshop
-An automation system for restaurants, bars and soccer fields.
+A Point of Sale (POS) and management system for bars, restaurants, and snack bars, developed in Python.
 
 ## Requirements
 
